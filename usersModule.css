@@ -1,0 +1,65 @@
+:root {
+  --success-color: #2ece71;
+  --error-color: #e74c3c;
+  --page-color: #f9fafb;
+  --container-color: #fff;
+  --label-color: #777;
+}
+
+body {
+  background-color: var(--page-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.heading,
+.footer {
+  margin: 8px 16px;
+  padding: 8px;
+  text-align: center;
+}
+.heading p a {
+  padding: 8px;
+}
+.footer p a {
+  padding: 8px;
+}
+.heading p {
+  padding: 16px;
+}
+.container1 {
+  background-color: var(--container-color);
+  border-radius: 4px;
+  box-shadow: 1px 0.5px 10px #777;
+  width: 400px;
+}
+.container3 {
+  background-color: var(--container-color);
+  border-radius: 4px;
+  box-shadow: 1px 0.5px 10px #777;
+  width: 400px;
+}
+.container2 {
+  border-radius: 4px;
+  min-height: 75vh;
+  padding: 8px;
+}
+form {
+  margin: 16px;
+}
+form small {
+  visibility: hidden;
+}
+#logOut {
+  position: absolute;
+  right: 16px;
+}
+.editRow,
+.deleteRow {
+  padding: 16px;
+  justify-content: right;
+}
+.pgTitle {
+  margin-top: 20px;
+}
